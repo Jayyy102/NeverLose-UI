@@ -166,3 +166,8 @@ Section:Keybind({
         print(defaultBind)
     end
 })
+
+local Tab = TabSection:Tab({
+    text = "Blatant",
+    icon = "http://www.roblox.com/asset/?id=8273837821",
+})
