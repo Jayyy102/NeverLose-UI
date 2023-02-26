@@ -2,20 +2,20 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost
 -- Toggle UI: Library:Toggle()
 
 local Window = Library:Window({
-    text = "Window"
+    text = "PurpleWare"
 })
 
 local TabSection = Window:TabSection({
-    text = "TabSection"
+    text = "Modules"
 })
 
 local Tab = TabSection:Tab({
-    text = "Tab",
+    text = "Blatant",
     icon = "rbxassetid://7999345313",
 })
 
 local Section = Tab:Section({
-    text = "Section"
+    text = "Aimassist"
 })
 
 Section:Button({
