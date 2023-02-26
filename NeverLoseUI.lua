@@ -163,13 +163,6 @@ local Section = Tab:Section({
     text = "Reach"
 })
 
-Section:Button({
-    text = "Button",
-    callback = function()
-        print("Clicked button")
-    end,
-})
-
 Section:Toggle({
     text = "Toggle",
     state = false, -- Default boolean
@@ -185,31 +178,6 @@ Section:Slider({
     -- [[Float = 0,]] Idk what it does
     callback = function(number)
         print(number)
-    end
-})
-
-Section:Dropdown({
-    text = "Dropdown",
-    list = {"Apple", "Banana","Coconut"},
-    default = "Apple",
-    callback = function(String)
-        print(String)
-    end
-})
-
-Section:Textbox({
-    text = "Textbox",
-    value = "Default",
-    callback = function(String)
-        print(String)
-    end
-})
-
-Section:Colorpicker({
-    text = "Colorpicker",
-    color = Color3.new(1,1,1),
-    callback = function(HSV)
-        print(HSV)
     end
 })
 
