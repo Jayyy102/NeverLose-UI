@@ -3,6 +3,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost
 
 local Window = Library:Window({
     text = "PurpleWare"
+    icon = "rbxassetid://7999345313",
+    color = Color3.new(1,1,1),
 })
 
 local TabSection = Window:TabSection({
