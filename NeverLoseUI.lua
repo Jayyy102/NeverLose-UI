@@ -16,9 +16,9 @@ local Tab = TabSection:Tab({
 --AimAssist
 local Section = Tab:Section({
     text = "Aimassist"
-    callback = function(number)
-		print("Toggle current: ",boolean)
-end
+    callback = function(boolean)
+        print("Toggle current: ",boolean)
+    end
 })
 
 Section:Toggle({
